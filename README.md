@@ -7,7 +7,7 @@ https://teachbitcoin.io/ 的教学 PPT 翻译。配合 libbitcoin 进行 比特�
 ## 内容
 | 章节 | 翻译进度 |
 | - | - |
-| 椭圆曲线数学 | 进行中 |
+| [椭圆曲线数学](https://chrislinn.github.io/teachbitcoin-cn/ec_math.html) | 进行中 |
 
 相关编程代码可在[这里](https://github.com/teachbitcoin/code-demos)找到。
 
