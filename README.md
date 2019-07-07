@@ -1,8 +1,8 @@
 # teachbitcoin-cn
 
-Translation of https://teachbitcoin.io/ slides. Teach bitcoin with libbitcoin.
+https://teachbitcoin.io/ 的教学 PPT 翻译。配合 libbitcoin 进行 比特币 原理&编程 教学。
 
-> [Libbitcoin](https://github.com/libbitcoin/libbitcoin-system) is a asynchronous C++ Bitcoin library. Documents can be found [here](https://github.com/jachiang/LibbitcoinDocumentation).
+> [Libbitcoin](https://github.com/libbitcoin/libbitcoin-system) 是一个异步的 C++ 比特币代码库. [相关文档](https://github.com/jachiang/LibbitcoinDocumentation).
 
 ## 内容
 | 章节 | 翻译进度 |
