@@ -21,7 +21,7 @@ https://teachbitcoin.io 的教学 PPT 翻译。配合 libbitcoin 进行 比特�
 | [Simplified Payment Verification](https://teachbitcoin.io/presentations/spv.html) | SPV clients follow the longest header chain with the most proof-of-work. They rely on specific transaction updates from full Bitcoin nodes, and perform merkle proofs to validate confirmation of these transactions. | [代码](https://github.com/teachbitcoin/code-demos/tree/master/11_simplified_payment_verification) | [进行中](https://chrislinn.github.io/teachbitcoin-cn/spv.html) |
 | [Payment Channels and Lightning Network](https://teachbitcoin.io/presentations/payment_channels.html) | We demonstrate a basic payment channel between two nodes which is enabled by revocable output scripts (RSMC's). Payment routing across multiple payment channels is made possible by hashed time-locked contracts (HTLC's). | [代码](https://github.com/teachbitcoin/code-demos/tree/master/12_payment_channels) | [进行中](https://chrislinn.github.io/teachbitcoin-cn/payment_channels.html) |
 
-相关编程代码可在[这里](https://github.com/teachbitcoin/code-demos)找到。
+相关编程代码和讲解/指南可在[这里](https://github.com/teachbitcoin/code-demos)找到。
 
 ## 致谢
 + https://github.com/teachbitcoin
