@@ -105,18 +105,18 @@
                 <li style = "font-weight: bold;">R 点:</li>
                 <ul>
                   <li>随机点 (盲化blinding).</li>
-                  <li><span class="inline_code">R</span> point x-coordinate represented on left & right of equation.</li>
+                  <li><span class="inline_code">R</span> 点的 x-坐标在等式左&右边的都有被表现。</li>
                   <li>只对于秘密 <span class="inline_code">e</span>等式才能达到平衡。</li>
                 </ul>
                 <hr style = "height: 5px; visibility: hidden;">
 
                 <li style = "font-weight: bold;">已签名的消息 z:</li>
                 <ul>
-                  <li>For a given random point <span class="inline_code">R</span>, <span class="inline_code">z</span> is committed to on left side of equation.</li>
+                  <li>对于一个给定的随机点 <span class="inline_code">R</span>，<span class="inline_code">z</span> 向等式的左边承诺。</li>
                 </ul>
                 <hr style = "height: 5px; visibility: hidden;">
 
-                <li style = "font-weight: bold;">ECDSA 验证:</li>
+                <li style = "font-weight: bold;">ECDSA 验证：</li>
                 <ul>
                   <li>需要 <span class="inline_code">z</span>, <span class="inline_code">r_x</span>, <span class="inline_code">s</span> 和公钥 <span class="inline_code">P</span> 来验证签名。</li>
                 </ul>
@@ -131,7 +131,7 @@
         <!-- *********** Begin: DER encoding *********** -->
         <section class = "box">
           <div class = "title">
-              <span class = "title weight">DER Encoding</span>
+              <span class = "title weight">DER 编码</span>
           </div>
 
           <!-- Derivation Graphic -->
@@ -151,29 +151,29 @@
                  style = "width: 50%; font-size: 22px; margin: 60px 0 0 0">
               <ul style = "margin: 0; padding: 0px; list-style-type: none;">
 
-                <li style = "font-weight: bold;">libsecp256k1 replaced OpenSSL</li>
+                <li style = "font-weight: bold;">libsecp256k1 代替 OpenSSL</li>
                 <ul>
-                  <li>OpenSSL suffers from encoding ambiguity across systems.</li>
-                  <li>libsecp256k1 removes this dependency from project.</li>
+                  <li>OpenSSL 的问题在于不同系统间编码可能不同。</li>
+                  <li>libsecp256k1 解决了这个系统依赖性的问题。</li>
                 </ul>
                 <hr style = "height: 5px; visibility: hidden;">
 
-                <li style = "font-weight: bold;">Strict encoding (BIP66)</li>
+                <li style = "font-weight: bold;">严格的编码 (BIP66)</li>
                 <ul>
-                  <li>Removes encoding malleability: Consensus enforced encoding standard.</li>
-                  <li>Removes ECDSA malleability: low s values enforced.</li>
+                  <li>移除了编码的可变性：共识层强制执行的编码标准。</li>
+                  <li>移除了 ECDSA 的可变性：强制使用较小的 s 的值。</li>
                 </ul>
                 <hr style = "height: 5px; visibility: hidden;">
 
-                <li style = "font-weight: bold;">DER signature is 70-72 Bytes long.</li>
+                <li style = "font-weight: bold;">DER 签名大小为 70-72 字节。</li>
                 <ul>
-                  <li>r_x length: 32/33 Bytes</li>
+                  <li>r_x 的长度: 32/33 字节</li>
                   <ul>
-                    <li>256bit signed value, no leading nulls</li>
+                    <li>有符号 256-位，无前导空位。</li>
                   </ul>
-                  <li>s length: 31/32 Bytes</li>
+                  <li>s 的长度: 31/32 字节</li>
                   <ul>
-                    <li>Low s values enforced, no leading nulls</li>
+                    <li>强制使用较小的 s，无前导空位。</li>
                   </ul>
                 </ul>
 
