@@ -1,6 +1,4 @@
-# teachbitcoin-cn
-
-__(WIP)__
+# teachbitcoin-cn (WIP)
 
 https://teachbitcoin.io 的教学 PPT 翻译。配合 libbitcoin 进行 比特币 原理&编程 教学。
 
